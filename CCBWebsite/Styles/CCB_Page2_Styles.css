@@ -1,0 +1,179 @@
+/*
+	Columbia Community Band
+	
+	CCB Stylesheet
+	Author: Alex Franklin	
+    Date:   11/28/15
+	
+    Filename: CCB_Page_Styles.css
+    Supporting files: 
+*/
+
+/*display structural elements as blocks */
+
+header, section, footer, nav{
+	display: block;
+}
+
+/* set default values for the body */
+
+body *{
+	padding: 0px;
+	margin: 0px;
+}
+/* body styles */
+
+body{
+	background-color: green;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/* container styles */
+
+#container{
+	margin: 0px auto;
+	background-color: rgb(247,243,227);
+	
+} 
+
+h1 {
+	display: none;
+}
+
+header{
+	background-color: rgb(252,253,251);
+    background: rgb(252,253,251) url(CCB_Logo.jpg) top left no-repeat;
+    height: 220px;
+}
+
+header img{
+	padding-left: 50px;
+}
+/* nav styles */
+
+nav.horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	padding-left: 140px;
+    overflow: hidden;
+	background-color: rgb(25, 83, 5);
+	
+}
+
+nav.horizontal li {
+    float: left;
+	width: 180px;
+}
+
+nav.horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#fb {
+	font-size: 36px;
+}
+/* Change the link color to #111 (black) on hover */
+nav.horizontal li a:hover {
+    background-color: #111;
+}
+
+#currentPage{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#currentPage  {
+	color:rgb(240,206,138);
+}
+
+/* Article Styles */
+
+article{
+	padding-top: 10px;
+}
+
+/* footer styles */
+
+audio {
+	position: absolute;
+    bottom: 10px;
+	left: 0;
+	   width: calc(100% - 1px);
+}
+
+h4 {
+	font-size: 13px;
+    font-weight: 600;
+}
+
+h1, h2, h3 {
+	margin-top: 0 !important;
+}
+
+.audio-item {
+	width: 300px;
+    height: 175px;
+    min-height: 140px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    background-color: #ffffc48c;
+}
+
+.audio-items {
+	width: auto;
+    margin: auto;
+    min-width: 340px;
+    max-width: 700px;
+}
+
+.audio-recordings {
+	margin-bottom: 20px;
+}
+
+.audio-recordings > h2 {
+	padding-bottom: 4px;
+}
+
+.blank-item {
+	display: inline-block;
+    width: 322px;
+    height: 1px;
+}
+
+/*
+@media all and (min-width: 651px) {
+	#mobile {
+		display: none;
+	}
+}
+
+@media all and (max-width: 650px) {
+	#web {
+		display: none;
+	}
+}
+*/
+
+#web {
+	background-color: white;
+    margin-bottom: 0;
+    padding: 10px 0 10px 10px;	
+}
+
+#mobile {
+	background-color: white;
+    padding: 10px;
+}
+
+#mobile {
+	display: none;
+}

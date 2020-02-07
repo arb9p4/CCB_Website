@@ -1,0 +1,113 @@
+/*
+   Columbia Calendar Table style sheet
+   Author: Alex Franklin
+   Date:   3/1/2014
+
+   Filename:         calendar.css
+
+
+*/
+
+/*
+#calendar_table {
+   background-color: rgb(246, 224, 224); 
+   border: 10px outset rgb(191, 191, 191);
+ 
+   font-size: 10px; 
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0px 0px 5px 5px;
+   width: 100%;
+
+	//box shadow
+   -moz-box-shadow: -5px 5px 22px black;
+   -webkit-box-shadow: -5px 5px 22px black;
+   box-shadow: -5px 5px 22px black;
+   
+   //rounded edges
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}*/
+
+#calendar_table{
+	background-color: rgb(240,206,138);
+	font-size: 10px; 
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 50px;
+	width: 1400px;
+	border: 1px solid black;
+}
+
+/*
+#calendar_head {
+   color: rgb(211, 211, 211); 
+   letter-spacing: 5px;
+   height: 50px;
+   line-height: 25px;
+   font-size: 14px;
+
+   background-color: rgb(22,29,29); 
+   background: -o-linear-gradient(0deg, rgb(22, 29, 29), black, rgb(223, 29, 29));
+   background: -ms-linear-gradient(0deg, rgb(22, 29, 29), black, rgb(223, 29, 29));
+   background: -moz-linear-gradient(0deg, rgb(22, 29, 29), black, rgb(223, 29, 29));
+   background: -webkit-linear-gradient(0deg, rgb(22, 29, 29), black, rgb(223, 29, 29)); 
+   background: linear-gradient(0deg, rgb(22, 29, 29), black, rgb(223, 29, 29));
+}*/
+
+.calendar_head{
+	background-color: rgb(25, 83, 5);
+	color: white;
+	letter-spacing: 5px;
+	height: 50px;
+	line-height: 25px;
+	font-size: 30px;
+}
+
+/*#left, #right{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	width: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 30px;
+	color: white;
+	background-color: rgb(25, 83, 5);
+	border-style: none;
+}*/
+
+#calendar_table td{
+	height: 100px;
+	border: 1px solid black;
+}
+
+.calendar_weekdays {
+   background-color: white;
+   width: 14%; 
+   font-size: 14px; 
+   border: 1px solid black;
+}
+
+.calendar_dates {
+   text-align: left; 
+   vertical-align: top;
+   font-size: 12px;
+   padding: 3px;
+   border: 1px dotted gray;
+   background-color: white;
+   height: 60px;
+}
+
+.calendar_today {
+   font-weight: bold; 
+   color: rgb(223,29,29); 
+   background-color: ivory;
+   border: 1px solid black;
+   text-align: left; 
+   vertical-align: top;
+   font-size: 12px;
+   padding: 3px;
+   height: 60px;
+}
+
+

@@ -1,0 +1,157 @@
+/*
+    Web Design Final Project
+    Mockup Webpage for Columbia Community Band
+	Columbia Community Band
+	
+	CCB Stylesheet
+	Author: Alex Franklin	
+    Date:   11/28/15
+	
+    Filename: CCB_Page_Styles.css
+    Supporting files: 
+*/
+
+/*display structural elements as blocks */
+
+header, section, footer, nav{
+	display: block;
+}
+
+/* set default values for the body */
+
+body *{
+	padding: 0px;
+	margin: 0px;
+}
+/* body styles */
+
+body{
+	background-color: green;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/* container styles */
+
+#container{
+	width: 1500px;
+	margin: 0px auto;
+	border: 1px solid black;
+	background-color: rgb(240,206,138);
+	
+} 
+
+/* header styles */
+
+header{
+	background-color: white;
+	background-color: rgb(252,253,251);
+	background: rgb(252,253,251) url(CCB_Logo.jpg) top left no-repeat;
+	height: 220px;
+}
+
+header h1{
+	display: none;
+}
+/* nav styles */
+
+nav.horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	padding-left: 350px;
+    overflow: hidden;
+	background-color: rgb(25, 83, 5);
+	
+}
+
+nav.horizontal li {
+    float: left;
+	width: 140px;
+}
+
+nav.horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav.horizontal li a:hover {
+    background-color: #111;
+}
+
+#currentPage{
+	font-size: 18px;
+	font-weight: bold;
+	color:rgb(240,206,138);
+}
+
+/* vertical nav styles */
+
+nav.vertical{
+	clear: left;
+	float: left;
+	width: 200px;
+}
+
+nav.vertical li{
+	list-style-type: none;
+	text-indent: 20px;
+	margin: 20px 0px 20px 0px;
+}
+
+nav.vertical li a{
+	color: rgb(25, 83, 5);
+	text-decoration: none;
+}
+
+nav.vertical li a:hover{
+	color: black;
+}
+
+/* Section Styles */
+
+section{
+	background-color: rgb(247,243,227);
+	float: left;
+	width: 1300px;
+}
+
+section img{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+section p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* footer styles */
+
+footer{
+	clear: left;
+	margin: 0px;
+	width: 1500px;
+	background-color: white;
+}
+
+footer address{
+	border-top: 1px solid green;
+	color: black;
+	font-size: 20px;
+	font-style: normal;
+	text-align: center;
+	margin-top: 25px;
+	padding-bottom: 15px;
+}
+
+#fb {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+
+#mobile {
+	display: none;
+}

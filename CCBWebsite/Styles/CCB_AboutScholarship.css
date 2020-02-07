@@ -1,0 +1,49 @@
+
+#mobile {
+	display: none;
+}
+
+.scholarship-winner {
+	text-align: center; 
+	margin-top: 20px; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.scholarship-winner-prev {
+	text-align: center; 
+	margin-top: 20px; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.previous-winner {
+	margin-top: 10px; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.previous-winner p {
+	margin-top: 5px;
+}
+
+header{
+	
+	background-color: white;
+	background-color: rgb(252,253,251);
+	background: rgb(252,253,251) url(CCB_Logo.jpg) top left no-repeat;
+	height: 220px;
+}
+
+header h1 {
+	display: none;
+}
+header img{
+	padding-left: 50px;
+}
+
+#web {
+	background-color: white;
+    margin-bottom: 0;
+    padding: 10px 0 10px 10px;	
+}

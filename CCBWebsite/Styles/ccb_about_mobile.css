@@ -1,0 +1,176 @@
+/* Hide page elements that will not be displayed */
+header h1, h2{
+	display: none;
+}
+
+header {
+	background: url(CCB_Logo_SM.png) top center no-repeat;
+	-o-background-size: contain;
+	-moz-bacground-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+	
+	width: 100%;
+	height: 154px;
+	border-bottom: 1px solid black;
+}
+
+/* Mobile styles under portrait orientation */
+
+@media screen and (orientation: portrait) {
+	
+/* Main section navigation list styles */
+  a:visited {
+	  color: blue;
+  }
+  
+  a:active {
+	  color: red;
+  }
+  
+  nav.horizontal ul{
+      float: left;
+      width: 20%;
+	  margin: 0;
+	  padding: 0;
+	  padding-top: 5px;
+   }
+
+   nav.horizontal li {
+      background-color: rgb(25, 83, 5);
+      border: 1px solid black;
+      display: block;
+      font-size: 12px;
+      height: 30px;
+      width: 100%;
+	  list-style-type: none;
+	  text-align: center;
+   }
+
+   nav.horizontal li a {
+      color:white;
+	  text-decoration: none;
+   }
+   
+   nav.vertical ul{
+	   list-style-type: none;
+	   padding: 0;   
+	   padding-top: 5px;	
+	   display:flex;
+	   flex-wrap:wrap;
+       justify-content:center;
+   }
+   
+   nav.vertical li {
+	   list-style-type: none;
+	   float: left;
+	   width: 27%;	
+	   margin-left: 1.4%;
+	   margin-right: 1.5%;
+   }
+   
+   nav.vertical li a {
+	   display: block;
+	   text-align: center;
+	   text-decoration: none;
+	   font-size: 12px;
+   }
+   
+   nav.vertical li a:hover{
+	   color: red;
+   }
+
+   #directors {
+	   color: black;
+	   background-color: lightyellow;
+
+   }
+   
+   #directors:visited {
+	   color: black;
+   }
+}
+
+/* Section Styles */
+article.director {
+	width: 80%;
+	margin: 0px;
+	margin-left: 20%;
+}
+
+article.director img{
+	margin: auto;
+	width: 50%;
+	padding-left: 25%;
+}
+
+article.image {
+	width: 100%;
+	margin: 0px;
+}
+
+article.image img{
+	margin: auto;
+	width: 40%;
+	padding-left: 30%;
+}
+
+#Director h3 {
+	text-align: center;
+}
+
+#Director {
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+
+#AsstDirector h3 {
+	text-align: center;
+}
+
+#AsstDirector {
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+
+#PaulCopenhaver {
+}
+
+#ComposerInRes h3 {
+	text-align: center;
+}
+
+#ComposerInRes {
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;	
+}
+
+#ProfessorEmeritus {
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	
+}
+
+#ProfessorEmeritus h3 {
+	text-align: center;
+}
+
+#JohnCheetham {
+	padding-top: 15px;
+}
+
+#JohnPatterson {
+	padding-top: 15px;
+}
+
+#web {
+	display: none;
+}

@@ -1,0 +1,38 @@
+/*
+    Web Design Final Project
+    Mockup Webpage for Columbia Community Band
+	Columbia Community Band
+	
+	CCB Stylesheet
+	Author: Alex Franklin	
+    Date:   11/02/16
+	
+    Filename: CCB_Calendar_Styles.css
+    Supporting files: 
+*/
+
+body{
+	background-color: green;
+}
+
+#container {
+	background-color: black;
+}
+
+#left{
+	background-image: url(leftarrow.png);
+	height: 55px;
+	width: 393px;
+	border-style: none;
+}
+
+#right{
+	background-image: url(rightarrow.png);
+	height: 55px;
+	width: 393px;
+	border-style: none;
+}
+
+a{
+	text-decoration: none;
+}

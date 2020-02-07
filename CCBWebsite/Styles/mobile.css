@@ -1,0 +1,117 @@
+/*
+   Mobile Styles
+   Author: Alex Franklin
+   Date:   8/23/16
+
+   Filename:         mobile.css
+   Supporting Files: tblogo_sm.png, portrait.txt, landscape.txt
+*/
+
+/* Styles to be used with mobile devices */
+
+/* Initial Mobile Styles */
+
+/* Hide page elements that will not be displayed */
+header h1, h2{
+	display: none;
+}
+
+
+header {
+	background: url(CCB_Logo_SM.png) top center no-repeat;
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+	
+	width: 100%;
+	height: 154px;
+	border-bottom: 1px solid black;
+}
+
+/* Mobile styles under portrait orientation */
+
+@media screen and (orientation: portrait) {
+	
+	   /* Main section navigation list styles */
+   nav.horizontal ul{
+      float: left;
+      width: 20%;
+	  margin: 0;
+	  padding: 0;
+	  padding-top: 5px;
+	  padding-right: 5px;
+   }
+
+   nav.horizontal li {
+      background-color: rgb(25, 83, 5);
+      border: 1px solid black;
+      display: block;
+      font-size: 12px;
+      height: 20px;
+      width: 100%;
+	  list-style-type: none;
+	  text-align: center;
+	  padding-top: 5px;
+	  padding-bottom: -10px;
+   }
+
+   nav.horizontal li a {
+      color:white;
+	  text-decoration: none;
+   }
+}
+
+/* Section Styles */
+article img {
+	width: 75%;
+	padding-left: 2.5%;
+	padding-top: 10px;
+}
+
+.pdfIcon {
+	width: auto;	
+}
+article.info {
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+aside {
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+#concertflyer {
+	padding-left: 0;
+	margin-left: 20%;
+	width: 60%;
+}
+
+#web {
+	display: none;
+}
+
+#mobile p{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+h3 {
+	text-align: center;
+}
+
+#alert {
+	background-color: red;
+	color: white;
+	height: 10%
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+	padding-top: 19px; 
+	padding-bottom: 19px;
+}

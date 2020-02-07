@@ -1,0 +1,71 @@
+/*
+   Donations Mobile Styles
+   Author: Alex Franklin
+   Date:   5/1/2017
+
+   Filename:         mobile.css
+*/
+
+/* Styles to be used with mobile devices */
+
+/* Initial Mobile Styles */
+
+/* Hide page elements that will not be displayed */
+header h1, h2{
+	display: none;
+}
+
+
+header {
+	background: url(CCB_Logo_SM.png) top center no-repeat;
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+	
+	width: 100%;
+	height: 154px;
+	border-bottom: 1px solid black;
+}
+
+/* Mobile styles under portrait orientation */
+
+@media screen and (orientation: portrait) {
+	
+	   /* Main section navigation list styles */
+   nav.horizontal ul{
+      float: left;
+      width: 20%;
+	  margin: 0;
+	  padding: 0;
+	  padding-top: 5px;
+	  padding-bottom: 10px;
+   }
+
+   nav.horizontal li {
+      background-color: rgb(25, 83, 5);
+      border: 1px solid black;
+      display: block;
+      font-size: 12px;
+      height: 30px;
+      width: 100%;
+	  list-style-type: none;
+	  text-align: center;
+	  padding-top: 5px;
+
+   }
+
+   nav.horizontal li a {
+      color:white;
+	  text-decoration: none;
+   }
+}
+
+#web {
+	display: none;
+}
+
+#mobile {
+	clear: left;
+	border-top: 1px solid black;
+}

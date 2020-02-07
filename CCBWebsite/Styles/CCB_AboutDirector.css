@@ -1,0 +1,65 @@
+/*
+    Web Design Final Project
+    Mockup Webpage for Columbia Community Band
+	Columbia Community Band
+	
+	CCB Stylesheet
+	Author: Alex Franklin	
+    Date:   11/08/16
+	
+    Filename: CCB_AboutDirector.css
+    Supporting files: 
+*/
+h2 {
+	display: none;
+}
+
+#JohnPatterson{
+	float: right;
+	margin: 30px 15px 15px 15px;
+}
+
+#Director h3{
+	margin-top: 40px;
+	text-align: center;
+}
+
+#Director p{
+	margin: 20px 15px 20px 15px;
+}
+
+#PaulCopenhaver{
+	float: right;
+	margin: 15px;
+	padding-top: 20px;
+}
+
+#AsstDirector h3{
+	padding-top: 50px;
+	text-align: center;
+}
+
+#AsstDirector p{
+	margin: 20px 15px 20px 15px;
+}
+
+#ProfessorEmeritus p{
+	margin: 20px 15px 20px 15px;
+}
+
+#ProfessorEmeritus h3 {
+	padding-top: 50px;
+	text-align: center;
+}
+#JohnCheetham {
+	float: left;
+	margin: 65px 15px 0px 15px;
+}
+#ComposerInRes h3{
+	padding-top: 50px;
+	text-align: center;
+}
+
+#ComposerInRes p{
+	margin: 20px 15px 20px 15px;
+}

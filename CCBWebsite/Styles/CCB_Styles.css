@@ -1,0 +1,212 @@
+/*
+	CCB Stylesheet
+	Author: Alex Franklin	
+    Date:   11/02/16
+	
+    Filename: CCB_Styles.css
+    Supporting files: 
+*/
+
+
+/*display structural elements as blocks */
+
+header, section, aside, footer, nav{
+	display: block;
+}
+
+h2 {
+	display: none;
+}
+/* set default values for the body */
+
+body *{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* body styles */
+
+body{
+	background-color: green;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* container styles */
+
+#container{
+	width: 1500px;
+	margin: 0px auto;
+	border: 1px solid black;
+	background-color: rgb(240,206,138);
+	background-position: top left;
+	background-repeat: repeat-y;
+}
+
+/* header styles */
+
+header{
+	
+	background-color: white;
+	background-color: rgb(252,253,251);
+	background: rgb(252,253,251) url(CCB_Logo.jpg) top left no-repeat;
+	height: 220px;
+}
+
+header h1 {
+	display: none;
+}
+header img{
+	padding-left: 50px;
+}
+/* nav styles */
+
+nav.horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	padding-left: 350px;
+    overflow: hidden;
+	background-color: rgb(25, 83, 5);
+	
+}
+
+nav.horizontal li {
+    float: left;
+	width: 140px;
+}
+
+nav.horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav.horizontal li a:hover {
+    background-color: #111;
+}
+
+#currentPage{
+	font-size: 18px;
+	font-weight: bold;
+	color:rgb(240,206,138);
+}
+
+
+/* Section Styles */
+
+section{
+	background-color: rgb(247,243,227);
+	float: left;
+	width: 1200px;
+	height: 80%;
+}
+
+#FullBand{
+	float: right;
+	margin: 30px;
+	width: 350px;
+}
+
+#Welcome{
+	padding-top: 50px;
+}
+
+section h1{
+	padding-left: 25px;
+	padding-top: 75px;
+}
+
+section h3{
+	padding-left: 25px;
+	padding-top: 100px;
+}
+section  p{
+	font-size: 20px;
+	margin: 25px;
+}
+
+#concertflyer {
+	margin: 30px;
+	width: 350px;
+	float: left;
+}
+
+#TripleTreat {
+	padding-top: 75px;
+}
+
+/* aside styles */
+
+aside{
+	float: left;
+	width: 300px;
+	background-color: rgb(240,206,138);
+
+}
+
+aside h3{
+	color: rgb(25, 83, 5);
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+
+aside ul li{
+	background-color: rgb(25, 83, 5);
+	border-radius: 5px;
+	color: white;
+	list-style-type: none;
+	margin: 10px;
+	padding: 5px;
+	font-size: 15.9px;
+}
+
+/* footer styles */
+
+footer{
+	clear: left;
+	background-color: white;
+}
+
+footer address{
+	border-top: 1px solid green;
+	color: black;
+	font-size: 20px;
+	font-style: normal;
+	text-align: center;
+	margin-top: 25px;
+	padding-bottom: 15px;
+}
+
+#mobile {
+	display: none;
+}
+
+#fb {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+
+.info h1{
+	font-size: 20px;
+}
+
+.concertLinks {
+	text-decoration: none;
+	color: white;
+}
+
+#alert {
+	background-color: red;
+	color: white;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+	padding-top: 19px;
+}

@@ -1,0 +1,106 @@
+/*
+@media all and (min-width: 651px) {
+	#mobile {
+		display: none;
+	}
+}
+
+@media all and (max-width: 650px) {
+	#web {
+		display: none;
+	}
+}
+*/
+
+#mobile {
+	display: none;
+}
+
+.event {
+	text-align: center;
+	min-height: 450px;
+}
+
+.event table {
+	text-align: left;
+	border-collapse: separate; 
+	border-spacing: 5px;
+}
+
+.event td {
+	vertical-align: top;
+}
+
+.event-info {
+	padding-left: 10px;
+	display: block;
+}
+
+header{
+	
+	background-color: white;
+	background-color: rgb(252,253,251);
+	background: rgb(252,253,251) url(CCB_Logo.jpg) top left no-repeat;
+	height: 220px;
+}
+
+
+
+
+@media all and (max-width: 767px) {
+	.event {
+		min-height: 250px;
+		border-bottom: 1px solid black;
+		padding-bottom: 20px;
+	}
+	
+	.event:last-of-type {
+		border: none;
+	}
+	
+	h2 br {
+		display: none;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.event {
+		text-align: left;
+	}
+}
+
+@media all and (max-width: 650px) {
+	header {
+		background: url(CCB_Logo_SM.png) top center no-repeat;
+		-o-background-size: contain;
+		-moz-bacground-size: contain;
+		-webkit-background-size: contain;
+		background-size: contain;
+		
+		width: 100%;
+		height: 154px;
+		border-bottom: 1px solid black;
+		background-color: white;
+	}
+}
+
+header h1 {
+	display: none;
+}
+
+#web {
+	background-color: white;
+    margin-bottom: 0;
+    padding: 10px 0 10px 10px;	
+}
+
+#mobile {
+	background-color: white;
+    padding: 10px;
+}
+
+@media all and (max-width: 1199px) and (min-width: 992px) {
+	.event {
+		min-height: 500px;
+	}
+}
